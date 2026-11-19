@@ -1,0 +1,6 @@
+Corpus: 117 recipe steps, 5-fold cross-validation, add-k k=0.1
+
+model                top-1   top-3  perplexity
+unigram (baseline)    8.6%   22.8%       127.7
+bigram               32.0%   46.9%        45.9
+trigram              37.4%   49.3%        94.4
